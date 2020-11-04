@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <!-- ==============================================
+        Basic Page Needs
+        =============================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title>Test formulaire don ACDLP Mensuel</title>
+
+
+
+        <!-- ==============================================
+        Vendor Stylesheet
+        =============================================== -->
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <!-- ==============================================
+        Custom Stylesheet
+        =============================================== -->
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/theme-orange.css">
+
+
+
+
+
+<!-- FORMULAIRE -->
+        <section id="contact" class="section-7 form">
+            <div class="container">
+                <form action="php/form.php" id="leverage-form" class="multi-step-form">
+                    <input type="hidden" name="section" value="leverage_form">
+
+
+
+                    <div class="row">
+                        <div class="col-12 col-md-6 align-self-start text-center text-md-left">
+
+                            <!-- Success Message -->
+                            <div class="row success message">
+                                <div class="col-12 p-0">
+                                    <div class="wait">
+                                        <div class="spinner-grow" role="status">
+                                            <span class="sr-only">Loading</span>
+                                        </div>
+                                        <h3 class="sending">SENDING</h3>
+                                    </div>
+                                    <div class="done">
+                                        <i class="icon bigger icon-check"></i>
+                                        <h3>Your message was sent successful. Thanks.</h3>
+                                        <a href="" class="btn mx-auto primary-button">
+                                            <i class="icon-refresh"></i>
+                                            REFRESH
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Steps Message -->
+                            <div class="row intro form-content">
+                                <div class="col-12 p-0">
+
+                                    <!-- Step Title -->
+                                    <div class="step-title">
+                                        <h2 class="featured alt">Devenir donateur mensuel</h2>
+                                        <p>Car votre soutien pour les plus démunis doit être régulier, devenez un de nos donateurs mensuels</p>
+                                    </div>
+
+                                    <!-- Step Title -->
+                                    <div class="step-title">
+                                        <h2 class="featured alt">Chaque mois...</h2>
+                                        <p>Car les meilleures des actions sont celles qui sont faites régulièrement et avec constance</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <!-- Steps Group -->
+                            <div class="row text-center form-content">
+                                <div class="col-12 p-0">
+                                    <ul class="progressbar">
+                                        <li>Votre don</li>
+                                        <li>Vos informations</li>
+                                        <!-- <li>Service Setup</li> -->
+                                    </ul>
+
+                                    <!-- Step 1 -->
+                                    <fieldset class="step-group">
+                                        <div class="row">
+
+
+                                            <div class="col-12 input-group p-0">
+                                                <input type="number" name="amount" data-minlength="3" class="form-control field-message" placeholder="25€">
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12 input-group p-0">
+                                                <i class="icon-arrow-down"></i>
+                                                <select name="budget" data-minlength="1" class="form-control field-budget">
+                                                    <option value="" selected disabled>Date du paiement</option>
+                                                    <option>le 5 du mois</option>
+                                                    <option>le 10 du mois</option>
+                                                    <option>le 15 du mois</option>
+                                                    <option>le 20 du mois</option>
+                                                    <option>le 25 du mois</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-12 input-group p-0">
+                                            <a class="step-next btn primary-button">SUIVANT<i class="icon-arrow-right-circle left"></i></a>
+                                        </div>
+                                    </fieldset>
+
+                                    <!-- Group 2 -->
+                                    <fieldset class="step-group">
+                                        <div class="row">
+                                            <div class="col-12 input-group p-0">
+                                                <input type="email" name="email" data-minlength="3" class="form-control field-email" placeholder="Votre email">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 input-group p-0">
+                                                <input type="text" name="name" data-minlength="3" class="form-control field-name" placeholder="Votre prénom et nom">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 input-group p-0 d-flex justify-content-between justify-content-md-start">
+                                            <a class="step-prev btn primary-button mr-4"><i class="icon-arrow-left-circle"></i>PRECEDENT</a>
+                                            <a class="step-next btn primary-button">VALIDER<i class="icon-arrow-right-circle left"></i></a>
+                                        </div>
+                                    </fieldset>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-images col-12 col-md-6 pl-md-5 d-none d-md-block">
+
+                            <!-- Step 1 -->
+              <div class="gallery">
+                                <a class="step-image" href="assets/images/step1.png">
+                                    <img src="assets/images/step1.png" class="fit-image" alt="Contact Us">
+                                </a>
+                            </div>
+
+                            <!-- Step 2 -->
+              <div class="gallery">
+                                <a class="step-image" href="assets/images/step2.png">
+                                    <img src="assets/images/step2.png" class="fit-image" alt="Contact Us">
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+
+        <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+
+    </body>
+</html>
